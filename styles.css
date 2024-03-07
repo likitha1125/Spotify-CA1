@@ -1,3 +1,4 @@
+/* Common styles for all screen sizes */
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +30,7 @@ body {
 }
 
 .logo img {
-    width: 50%;
+    width: 100%;
     height: auto;
     margin: 20px 0;
 }
@@ -231,5 +232,69 @@ p {
     .logo img {
         width: 80%;
         margin: 10px auto;
+    }
+    .singers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .singers div {
+        margin-bottom: 20px;
+    }
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        
+    }
+    .boxes div {
+        margin-bottom: 20px;
+    }
+    .boxes div img {
+        max-width: 80%;
+        height: auto;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .footer img {
+        width: 40px;
+    }
+    .playbutton img {
+        width: 40px;
+    }
+    .top-play img {
+        width: 50px;
+        height: auto;
+    }
+    .navcnt1 img,
+    .navcnt2 img,
+    .navcnt3 img {
+        width: 24px;
+        height: 24px;
+    }
+    #addsymbol {
+        font-size: 24px;
+        margin-right: 8px;
+    }
+    #installApp {
+        font-size: 16px;
+    }
+    .navcnt2 a:last-child {
+        font-size: 12px;
+    }
+    .navcnt1 ul li,
+    .navcnt2 ul li,
+    .navcnt3 ul li {
+        margin-bottom: 5px;
+    }
+    .con2 > p {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .footer {
+        font-size: 16px;
     }
 }
